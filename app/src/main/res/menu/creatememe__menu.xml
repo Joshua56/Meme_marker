@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_appearance"
+        android:icon="@drawable/ic_color_lens_white_48dp"
+        android:title="@string/appearance"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_white_48px"
+        android:title="@string/share_meme__appspecific"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_save_white_48px"
+        android:title="@string/save_meme__appspecific"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_show_original_image"
+        android:icon="@drawable/ic_image_black_24dp"
+        android:title="@string/show_image"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_show_edited_image"
+        android:icon="@drawable/ic_image_black_24dp"
+        android:title="@string/show_edited_image"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_save_as_template"
+        android:icon="@drawable/ic_save_white_48px"
+        android:title="@string/save_as_template"
+        app:showAsAction="never" />
+</menu>
